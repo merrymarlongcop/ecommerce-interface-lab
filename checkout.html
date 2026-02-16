@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <title>Checkout</title>
+    </head>
+    <body>
+
+        <main>
+            <h1>Checkout</h1>
+
+            <section>
+                <form>
+                    <fieldset>
+                        <label>Name: <input type="text" required></label>
+                        <label>Street: <input type="text" required></label>
+                        <label>Zip Code: <input type="text" required></label>
+                    </fieldset>
+
+                    <section>
+                        <h2>Payment Method</h2>
+                        <label><input type="radio" name="payment" required>Credit Card</label>
+                        <label><input type="radio" name="payment" required>PayPal</label>
+                    </section>
+                    <br>
+                    <button type="submit">Place Order</button>
+                </form>
+            </section>
+        </main>
+
+        <aside>
+            <h2>Order Summary</h2>
+            <p>Total Amount: ₱11,000</p>
+        </aside>
+    </body>
+</html>
