@@ -1,0 +1,151 @@
+/* CSS variables */
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #e6e22;
+  --bg-light: #f4f4f4;
+  --card-bg: #ffffff;
+  --text-main: #333333;
+  --bordee-color: #cccccc;
+}
+
+/* Body Typography*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  line-height: 1.6;
+  marhin: 20px;
+}
+
+/* Headings Typography*/
+h1, h2, h3 {
+  font-family: Georgia, serit;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Remove Underline*/
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 5px 10px;
+  display: inline-block;
+  transition: all 0.3 ease;
+}
+
+/* Hover effect*/
+nav a:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Active pressed*/
+nav a:active {
+  background-color: #d35400;
+}
+
+/* Focus keyboard*/
+a:focus, button:focus, input:focus {
+  outline: 3px solid;
+  var(--accent-color);
+}
+
+/* Buttons */
+button:hover {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointers;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  {
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Product cards */
+article {
+  display: inline-block;
+  width: 259px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+/* Alternative card colors */
+article:nth-child(even) {
+  background-color: white;
+}
+
+/* images */
+article img {
+  width: 100%;
+  vorder-radius: 5px;
+}
+
+/* Cart empty state*/
+.cart-items:empty {
+  background-color: #ffe6e6;
+  padding: 20px;
+  border: 1px dashed red;
+}
+
+.price::before {
+  content: "₱";
+  margin-right: 3px;
+}
+
+input:required {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+table, th, td {
+  border: 1px solid var(--border-color);
+  padding: 10px;
+}
+
+/* first column */
+td:first:child {
+  font-weight: bold;
+  color: var(--primary-cilor);
+}
+
+/* Order history*/
+::marker {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Quotation marks */
+blockquote::before {
+  content: "";
+  font-size: 30px;
+  color: var(--accent-color);
+}
+
+blockquote::after {
+  content: "";
+  font-size: 30px;
+  color: var(--accent-color);
+}
+  
+
