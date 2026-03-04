@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=8">
-        <title>My Account</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Hello User! Welcome!</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Order History</a></li>
-                <li><a href="#">Profile Settings</a></li>
-                <li><a href="#">Wishlist</a></li>
-            </ul>
-        </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <title>My Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <main>
-            <h2>Previous Purchase</h2>
+<body>
 
+<header>
+    <h1>Hello User! Welcome!</h1>
+
+    <nav>
+        <ul>
+            <li><a href="landing.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Order History</h2>
+
+    <!-- Using UL so ::marker works -->
+    <ul>
+
+        <li>
             <details>
                 <summary>#1 Order</summary>
-                <p>Product: Channel bag</p>
+                <p>Product: Channel Bag</p>
                 <p>Price: ₱8,000</p>
             </details>
+        </li>
 
+        <li>
             <details>
                 <summary>#2 Order</summary>
                 <p>Product: Dress</p>
                 <p>Price: ₱3,000</p>
             </details>
-        </main>
+        </li>
 
-    </body>
+    </ul>
+
+</main>
+
+</body>
 </html>
+
 
