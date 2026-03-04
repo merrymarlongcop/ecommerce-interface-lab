@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=8">
-        <title>Product Details</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <main>
-            <h1>Product Details</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <table>
-                <caption><strong>Technical Specification</strong></caption>
-                <br>
-                <tr>
-                    <th>Feature</th>
-                    <th>Details</th>
-                </tr>
-                <tr>
-                    <td>Color</td>
-                    <td>Pink</td>
-                </tr>
-                <tr>
-                    <td>Design</td>
-                    <td>Shoulder bag</td>
-                </tr>
-                <tr>
-                    <td>Brand</td>
-                    <td>Chanel</td>
-                </tr>
-            </table>
-            <br>
+<body>
 
-            <form>
-                <label>Quantity:<input type="number" min="1" value="1"></label>
-                <button type="submit">Add to cart</button>
-            </form>
+<header>
+    <h1>Product Details</h1>
 
-            <section>
-                <h2>User Reviews</h2>
-                <article>"Best Product! Highly recommended!</article>
-            </section>
-        </main> 
-    </body>
+    <nav>
+        <ul>
+            <li><a href="landing.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h2>Technical Specification</h2>
+
+    <!-- Required for responsive table -->
+    <div class="table-wrapper">
+        <table>
+            <caption><strong>Technical Specification</strong></caption>
+
+            <tr>
+                <th>Feature</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>Pink</td>
+            </tr>
+            <tr>
+                <td>Design</td>
+                <td>Shoulder Bag</td>
+            </tr>
+            <tr>
+                <td>Brand</td>
+                <td>Chanel</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <form>
+        <label>
+            Quantity:
+            <input type="number" min="1" value="1">
+        </label>
+
+        <button type="submit">Add to Cart</button>
+    </form>
+
+    <section>
+        <h2>User Reviews</h2>
+        <article>
+            <p>"Best Product! Highly recommended!"</p>
+        </article>
+    </section>
+
+</main>
+
+</body>
 </html>
+
 
