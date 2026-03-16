@@ -1,61 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Shopping Cart</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF=8">
+        <title>Shopping Cart</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-<body>
+        <main>
+            <h1>User Cart</h1>
 
-<header>
-    <h1>User Cart</h1>
+            <section>
+                <ul class="cart-items">
+                    <li>
+                        <img src="https://via.placeholder.com/100" alt="Product">
+                        <h3>Shoulder fashion leather bag</h3>
+                        <p>>₱8,000</p>
+                        <input type="number" min="1" value="1">
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="https://via.placeholder.co./100" alt="Product">
+                        <h3>Casual dress</h3>
+                        <p>₱3,000</p>
+                        <input type="number" min="1" value="1">
+                    </li>
+                </ul>
+            </section>
+            <hr>
 
-    <nav>
-        <ul>
-            <li><a href="landing.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="account.html">Account</a></li>
-        </ul>
-    </nav>
-</header>
+            <section>
+                <h2>Subtotal</h2>
+                <p>₱11,000</p>
+            </section>
 
-<main>
+            <a href="checkout.html">Proceed to checkout</a>
 
-    <section>
-        <ul class="cart-items">
-
-            <li>
-                <img src="https://via.placeholder.com/100" alt="Shoulder Bag">
-                <div>
-                    <h3>Shoulder Fashion Leather Bag</h3>
-                    <p>₱8,000</p>
-                </div>
-                <input type="number" min="1" value="1">
-            </li>
-
-            <li>
-                <img src="https://via.placeholder.com/100" alt="Casual Dress">
-                <div>
-                    <h3>Casual Dress</h3>
-                    <p>₱3,000</p>
-                </div>
-                <input type="number" min="1" value="1">
-            </li>
-
-        </ul>
-    </section>
-
-    <section>
-        <h2>Subtotal</h2>
-        <p>₱11,000</p>
-        <a href="checkout.html">Proceed to Checkout</a>
-    </section>
-
-</main>
-
-</body>
+            <section>
+                <p>Your cart is currently empty.</p>
+            </section>
+        </main>
+    </body>
 </html>
-
-
-

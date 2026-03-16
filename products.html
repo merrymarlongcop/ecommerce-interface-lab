@@ -1,72 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Products</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF=8">
+        <title>Product</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-<body>
+        <main>
+            <section>
+                <h1>All Products</h1>
 
-<header>
-    <nav aria-label="Main Navigation">
-        <ul>
-            <li><a href="landing.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="account.html">Account</a></li>
-        </ul>
-    </nav>
-</header>
+                <article>
+                    <img src="images.jpg" alt="product1">
+                    <h2>Shoulder fashion leather bag</h2>
+                    <p class="price">8,000</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+                <br>
 
-<!-- REQUIRED FOR SIDEBAR GRID -->
-<div class="shop-layout">
+                <article>
+                    <img src="images2.jpg" alt="product2">
+                    <h2>Casual dress</h2>
+                    <p>₱3,000</p>
+                    <a href="detail.html">View Details</a>
+                </article>
+            </section>
+        </main>
 
-    <!-- Sidebar -->
-    <aside>
-        <h2>Filter Products</h2>
+        <aside>
+            <h2>Filter Products</h2>
+            <form>
+                <fieldset>
+                    <legend>Category</legend>
+                    <label><input type="checkbox">Chanel Bags</label>
+                    <label><input type="checkbox">Clothing</label>
+                </fieldset>
 
-        <form>
-            <fieldset>
-                <legend>Category</legend>
-                <label><input type="checkbox"> Chanel Bags</label>
-                <label><input type="checkbox"> Clothing</label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Price Range</legend>
-                <label><input type="radio" name="price"> Low</label>
-                <label><input type="radio" name="price"> High</label>
-            </fieldset>
-        </form>
-    </aside>
-
-    <!-- Product Grid -->
-    <main>
-        <h1>All Products</h1>
-
-        <section class="products-container">
-
-            <article class="product-card">
-                <img src="images.jpg" alt="Shoulder Bag">
-                <h2>Shoulder Fashion Leather Bag</h2>
-                <p>₱8,000</p>
-                <a href="detail.html">View Details</a>
-            </article>
-
-            <article class="product-card">
-                <img src="images2.jpg" alt="Casual Dress">
-                <h2>Casual Dress</h2>
-                <p>₱3,000</p>
-                <a href="detail.html">View Details</a>
-            </article>
-
-        </section>
-    </main>
-
-</div>
-
-</body>
+                <fieldset>
+                    <legend>Price Range</legend>
+                    <label><input type="radio" name="price">Low</label>
+                    <label><input type="radio" name="price">High</label>
+                </fieldset>
+            </form>
+        </aside>
+    </body>
 </html>
-
-
